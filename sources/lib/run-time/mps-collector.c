@@ -485,9 +485,9 @@ void MMFreeMisc(void *old, size_t size)
     _r           (rep_size, offset)    Set repeated slot size at offset (raw param)
     _rf          (rep_size, off, fill) Set size slot and fill repeated data
     _rt          (rep_size, off, templ)Fill repeated data from template
-    _ruf         (rep_size, off, fill) Set size slot and fill repeated untraced data
-    _ruz         (rep_size, off)       Set rep slot size. Zero terminate untraced data
-    _rufz        (rep_size, off, fill) Set size slot, fill & zero terminate  untraced data
+    _rbf         (rep_size, off, fill) Set size slot and fill repeated bytes/untraced data
+    _rbz         (rep_size, off)       Set rep slot size. Zero terminate bytes/untraced data
+    _rbfz        (rep_size, off, fill) Set size slot, fill & zero terminate bytes/untraced data
 
 
 
